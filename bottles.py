@@ -1,5 +1,5 @@
 def bottle_song():
-	bottles = int(input("How many beers are you going to drink tonight?: "))
+	bottles = int(input("How many beers are you slamming on a 3-day weekend?: "))
 
 	while bottles > 2: # loop has to stop at 3 b/c "bottles" has to be singular in the second half of "2 bottles" lyric
 		print(f"{bottles} bottles of beer on the wall, {bottles} bottles of beer. Take one down and pass it around, {bottles - 1} bottles of beer on the wall.")
